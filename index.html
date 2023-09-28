@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script defer src="script.js" type="text/javascript"></script>
+    <title>AI Image Generator</title>
+</head>
+<body>
+    
+
+    <div class="container">
+        <h1>AI Image Generator</h1>
+        <p>Write your prompt here to generate the best quality photo. Use detailed sentences and include and specifications including resolution quality.</p>
+        <form class="gen-form">
+            <input type="text" id="user-prompt" placeholder="Write your prompt here" autocomplete="off">
+            <button type="submit" id="generate">Generate</button>
+        </input>
+
+
+
+        <div class="result">
+            <div id="loading">Generating please standby...</div>
+            <div id="image-grid"></div>
+        </div>
+
+    </div>
+</body>
+</html>
